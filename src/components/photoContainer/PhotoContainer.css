@@ -1,0 +1,10 @@
+.photo-container {
+  height: 100%;
+  width: 75%;
+  margin-top: 50px;
+  margin-left: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  /* border: 1px solid green; */
+}

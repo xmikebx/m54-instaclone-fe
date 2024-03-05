@@ -1,0 +1,29 @@
+.photoCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.photoCard:hover .photoCardImg {
+  filter: brightness(50%);
+}
+
+.photoCard:hover .photoLikes {
+  opacity: 1;
+}
+
+.photoCardImg {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.photoLikes {
+  position: absolute;
+  opacity: 0;
+}
+
+.white {
+  color: white;
+}

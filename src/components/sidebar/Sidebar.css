@@ -1,0 +1,28 @@
+.Sidebar {
+  /* background-color: chocolate; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 80px;
+  height: 100%;
+  border-right: 1px solid rgba(0, 0, 0, 0.399);
+}
+
+.navIcon {
+  width: 30px;
+  height: 30px;
+}
+
+.user {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.356);
+  font-size: 14px;
+}

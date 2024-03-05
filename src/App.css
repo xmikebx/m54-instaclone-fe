@@ -1,1 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+@font-face {
+  font-family: "Fontspring-DEMO-blue_vinyl_bold_ps_ot";
+  src: url(./assets/Fontspring-DEMO-blue_vinyl_bold_ps_ot.woff2) format("woff2");
+}
+
+.noto-sans-lght {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.noto-sans-norm {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.noto-sans-bold {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.smllT {
+  font-size: 12px;
+}
+
+.regT {
+  font-size: 16px;
+}
